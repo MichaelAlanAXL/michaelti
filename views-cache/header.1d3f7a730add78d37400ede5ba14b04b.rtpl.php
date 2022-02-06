@@ -1,9 +1,61 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
-<html>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
 	<title>Michael Ti</title>
+	<link rel="stylesheet" href="/res/site/css/style.css" type="text/css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
+
+    <script type="text/javascript" src="/res/site/js/script.js"></script>
 </head>
-	<body>
+<body>
+    <div id="art-page-background-gradient"></div>
+    <div id="art-main">
+        <div class="art-sheet">
+            <div class="art-sheet-tl"></div>
+            <div class="art-sheet-tr"></div>
+            <div class="art-sheet-bl"></div>
+            <div class="art-sheet-br"></div>
+            <div class="art-sheet-tc"></div>
+            <div class="art-sheet-bc"></div>
+            <div class="art-sheet-cl"></div>
+            <div class="art-sheet-cr"></div>
+            <div class="art-sheet-cc"></div>
+            <div class="art-sheet-body">
+                <div class="art-header">
+                    <div class="art-header-png"></div>
+                    <div class="art-header-jpeg"></div>
+                    <div class="art-logo">
+                        <h1 id="name-text" class="art-logo-name"><a href="#">Michael TI</a></h1>
+                        <div id="slogan-text" class="art-logo-text">Manuntenção e Montagem de PCs Desktop</div>
+                    </div>
+                </div>
+                <div class="art-nav">
+                	<ul class="art-menu">
+                		<li>
+                			<a href="#" class="active"><span class="l"></span><span class="r"></span><span class="t">Início</span></a>
+                		</li>
+                		<li>
+                			<a href="#"><span class="l"></span><span class="r"></span><span class="t">Serviços</span></a>
+                			<ul>
+                				<li><a href="#">Manuntenção</a>
+                					<ul>
+                						<li><a href="#">Desktop</a></li>
+                						<li><a href="#">Notebook</a></li>
+                						<li><a href="#">Outro</a></li>
+                					</ul>
+                				</li>
+                				<li><a href="#">Montar PC Gamer</a></li>
+                				<li><a href="#">Dúvidas</a></li>
+                			</ul>
+                		</li>		
+                		<li>
+                			<a href="#"><span class="l"></span><span class="r"></span><span class="t">Dicas</span></a>
+                		</li>
+                	</ul>
+                </div>
+
 
