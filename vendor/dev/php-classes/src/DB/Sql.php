@@ -4,10 +4,10 @@ namespace Dev\DB;
 
 class Sql {
 
-	const HOSTNAME = "localhost\SQLEXPRESS;ConnectionPooling=0";
-	const USERNAME = "sa";
-	const PASSWORD = "root";
-	const DBNAME = "db_michaelti";
+	const HOSTNAME = "127.0.0.1";
+	const USERNAME = "root";
+	const PASSWORD = "";
+	const DBNAME = "db_ecommerce";
 
 	private $conn;
 
@@ -15,7 +15,7 @@ class Sql {
 	{
 
 		$this->conn = new \PDO(
-			"sqlsrv:Database=".Sql::DBNAME.";server=".Sql::HOSTNAME,
+			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME,
 			Sql::USERNAME,
 			Sql::PASSWORD
 		);
