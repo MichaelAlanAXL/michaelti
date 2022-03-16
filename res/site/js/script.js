@@ -7,8 +7,8 @@ window.onscroll=function(){
 
 function fixarMenuNoTopo(){
 	if (window.pageYOffset >= topoNav) {
-		nav.classList.add("art-nav");
+		nav.classList.add("art-nav1");
 	}else{
-		nav.classList.remove("art-nav");
+		nav.classList.remove("art-nav1");
 	}
 }
