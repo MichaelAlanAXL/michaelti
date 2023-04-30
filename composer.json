@@ -1,0 +1,20 @@
+{
+	"name": "michaelalanaxl/michaelti",
+    "authors": [
+        {
+            "name": "Michael Alan",
+            "email": "michael.dtna@gmail.com"
+        }
+    ],
+    "require": {
+    	"sendgrid/sendgrid": "~7",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "vendor\\michael\\php-classes\\src"
+        }
+    }
+
+}
